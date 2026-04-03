@@ -1,3 +1,4 @@
+#версия с интерпретацией
 def calculate_bmi(weight, height):
     # реализовать расчет ИМТ
     pass
