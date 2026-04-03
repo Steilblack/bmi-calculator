@@ -2,6 +2,7 @@
 def calculate_bmi(weight, height):
     # реализовать расчет ИМТ
     pass
+
 def interpret_bmi(bmi):
     if bmi < 18.5:
         return "Недостаточный вес"
@@ -18,7 +19,6 @@ def ideal_weight(height, gender):
 def save_result(name, bmi, category):
     # реализовать сохранение результата
     pass
-
 
 def main():
     print("Добро пожаловать в BMI Calculator!")
