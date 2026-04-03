@@ -7,9 +7,11 @@ def calculate_bmi(weight, height):
 def interpret_bmi(bmi):
     # реализовать интерпретацию ИМТ
     pass
+
 def ideal_weight(height, gender):
     # реализовать расчет идеального веса
     pass
+
 def save_result(name, bmi, category):
     # реализовать сохранение результата
     pass
@@ -24,7 +26,6 @@ def main():
         print(f"Ваш ИМТ: {bmi}")
     except ValueError as e:
         print(f"Ошибка: {e}")
-
 
 if __name__ == "__main__":
     main()
