@@ -4,8 +4,14 @@ def calculate_bmi(weight, height):
     bmi = weight / (height ** 2)
     return round(bmi, 2)
 def interpret_bmi(bmi):
-    # реализовать интерпретацию ИМТ
-    pass
+    if bmi < 18.5:
+        return "Недостаточный вес"
+    elif 18.5 <= bmi < 25:
+        return "Нормальный вес"
+    elif 25 <= bmi < 30:
+        return "Избыточный вес"
+    else:
+        return "Ожирение"
 def ideal_weight(height, gender):
     # реализовать расчет идеального веса
     pass
@@ -19,7 +25,11 @@ def main():
         height = float(input("Введите ваш рост (м): "))
         bmi = calculate_bmi(weight, height)
         print(f"Ваш ИМТ: {bmi}")
+        category = interpret_bmi(bmi)
+        print(f"Ваш ИМТ: {bmi}")
+        print(f"Категория: {category}")
     except ValueError as e:
         print(f"Ошибка: {e}")
 if __name__ == "__main__":
     main()
+#версия с интерпретацией
