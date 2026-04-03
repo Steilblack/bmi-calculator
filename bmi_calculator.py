@@ -1,4 +1,3 @@
-#Второй вариант кофликта
 def calculate_bmi(weight, height):
     # реализовать расчет ИМТ
     pass
@@ -31,3 +30,5 @@ def main():
         print(f"Ошибка: {e}")
 if __name__ == "__main__":
     main()
+
+
