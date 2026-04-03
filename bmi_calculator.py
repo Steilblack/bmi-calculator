@@ -2,9 +2,11 @@
 def calculate_bmi(weight, height):
     # реализовать расчет ИМТ
     pass
+
 def interpret_bmi(bmi):
     # реализовать интерпретацию ИМТ
     pass
+
 def ideal_weight(height, gender):
     height_cm = height * 100
     if gender.lower() == 'male':
